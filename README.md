@@ -17,9 +17,14 @@ pip install google-genai
 ```
 
 2. Configure a sua chave de API temporária no terminal ( substituindo pelo seu token do Google AI Studio):
-* No PowerShell: $env:GEMINI_API_KEY="SUA_CHAVE_AQUI"
-* No Prompt de Comando (CMD): set GEMINI_API_KEY=SUA_CHAVE_AQUI
-  
+* **No PowerShell (Terminal padrão do VS Code no Windows):**
+```powershell
+$env:GEMINI_API_KEY="SUA_CHAVE_AQUI"
+```
+* **No Prompt de Comando(CMD)**
+```cmd
+ set GEMINI_API_KEY=SUA_CHAVE_AQUI
+```
 3. Execute a aplicação:
 ```bash
 python app_agente.py
